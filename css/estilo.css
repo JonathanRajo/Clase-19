@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Palanquin+Dark:wght@400;500;600;700&family=Palanquin:wght@200;400;500&display=swap');
+body{
+    font-family: 'Palanquin Dark'
+}
+#menu-area{
+    transition: background 0.6s;
+}
+#menu-area.cus-nav{
+    background: rgba(0, 0, 0, 0.7);
+}
+.navbar-toggler-icon{
+   background-image: url('../img/Menu\ hamburguesa.png') ;
+}
+.rajitoEnlaces ul li a{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-left: 51px;
+}
+.active{
+    color: #c2c0c0 !important;
+}
+.btnSuscribete{
+    width: 140px;
+    height: 40px;
+    background: #9a00c0;
+    border-radius: 10px;
+    border: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #E8E8E8;
+}
+.rajitoAltura{
+    height: 100vh;
+}
+#rajitoHeader{
+    background-image:  url('../img/Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+@media (max-width: 991px)
+{
+    .btnSuscribete{
+        margin-left: 50px;
+    }
+}
+/* Diseño Tema centro */
+h1{
+    font-size:  normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 90px;
+    text-align: center;
+    color: aliceblue;
+    width: 90%;
+    margin: auto;
+    font-family: 'Lobster';
+}
+.rajitoPrincipal span{
+    background: linear-gradient(180deg, #FFFDFD 40.62%, rgba(154, 0, 192, 0.79) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.btnPlay{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: calc(50% - 120px/2);
+    top: 305px;
+    background: rgba(16, 18, 27, 0.5);
+    backdrop-filter: blur(4px);
+    border: none;
+    border-radius: 50%;
+    font-size: 4rem;
+    padding-left: 45px;
+    padding-top: 30px;
+    color: #c4c4c4;
+}
+.rajitoPrincipal p{
+    
+    font-family: 'Palanquin Dark';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFDFD;
+    width: 75%;
+    margin: 30px auto;
+    }
+.btnVideos{
+    box-sizing: border-box;
+    width: 220px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    border-radius: 20px;
+    color: white;
+}
+@media (max-width: 991px)
+{
+    h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .rajitoPrincipal p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #menu-area{
+        background: rgba(0, 0, 0, 0.7);
+        backdrop-filter: blur(40px);
+    }
+}
+.rajitoLogotipos{
+    margin-bottom: 50px;
+}
+/* Cursos */
+#rajitoCursos{
+    padding: 41px 0px 70px 0px;
+}
+.btnCursos{
+    background: linear-gradient(90deg, #D8009B 0%, #7C0070 100%), #001F43;
+    width: 260px;
+    height: 60px;
+    font-family: 'Palanquin Dark';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFDFD;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 5px rgba(138, 138, 138, 0.3);
+    border-radius: 30px;
+}
+.cursostema h4{
+    font-family: 'Palanquin Dark';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 50px;
+    /* identical to box height, or 278% */
+
+    text-align: center;
+
+    /* Gray 3 */
+
+    color: #828282;
+}
+.cursostema p{
+    font-family: 'Palanquin Dark';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+
+    /* Azul fuete */
+
+    color: #001F43;
+}
+.cursostema h2{
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    /* Rsoado degradado */
+    
+    background: linear-gradient(90deg, #D8009B 0%, #7C0070 100%), #001F43;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.card{
+    border: none;
+}
+.rajitoCard{
+    width: 300px;
+    height: 225px;
+    
+    border-radius: 25px;
+    background-image: url('../img/Rectangle\ 32.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 20px 40px;
+}
+.rajitoCard h3{
+    font-family: 'Palanquin Dark';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 50px;
+/* or 167% */
+
+
+/* Blanco */
+
+color: #FFFFFF;
+}
+.rajitoCard span{
+    font-family: 'Palanquin Dark';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 50px;
+/* identical to box height, or 278% */
+
+display: flex;
+align-items: center;
+
+/* Gris claro */
+
+color: #F5F5F5;
+}
+.rajitoCard img{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
